@@ -177,6 +177,33 @@ footer {
   color: #444;
 }
 
+.participant-delete {
+  margin-left: auto;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #c62828; /* red */
+  color: #fff; /* white cross */
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+}
+
+.participant-delete:focus {
+  outline: 2px solid rgba(198,40,40,0.25);
+  outline-offset: 2px;
+}
+
+.participant-delete:hover {
+  filter: brightness(0.95);
+}
+
 .participant-badge {
   display: inline-flex;
   align-items: center;
